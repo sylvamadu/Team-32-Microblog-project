@@ -17,7 +17,7 @@ import { ConnectAccount,
 
 
 const reach = loadStdlib('ALGO');
-reach.setWalletFallback(reach.walletFallback( { providerEnv: 'TestNet', MyAlgoConnect } ));
+reach.setWalletFallback(reach.walletFallback( { providerEnv: 'MainNet', MyAlgoConnect } ));
 
 function App() {
   const [ account, setAccount ] = useState({})
