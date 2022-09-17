@@ -135,18 +135,6 @@ const Creator = Participant('Creator', {
 At this point, you can modify your Javsascript file (`index.mjs`) to contain definitions of these values.
 
 
-## Assertion Insertion
-Assertions are statements we insert at various points in our program that represent what we're expecting at that point in the program. Assertion statements must resolve to true at all times (run-time or compile-time) else the program would break.
-
-They're very useful tools that can make your program more secure, and even more readable.
-
-Look at your application. What are the assumptions you have about the values in the program?
-
-### Write down the properties you know are true about the various values in the program.
-
-....
-
-
 ## Program Flow
 Now that we've defined the data that would be shared across the program and how it would be shared, now we design the flow of the program. It is good practice to represent the flow of a program first in the form of [pseudocode](https://www.freecodecamp.org/news/what-is-pseudocode-in-programming/) before translating it to reach code. This makes the work easier, and can help you process the complex logic of a program without having to deal with the limitations of a programming language's syntax.
 
